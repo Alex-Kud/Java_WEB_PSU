@@ -4,13 +4,13 @@ The repository was created to host laboratory work on the university subject of 
 1. [Laboratory work 1](#l1)<br>
 2. [Laboratory work 2](#l2)<br>
 3. [Laboratory work 3](#l3)<br>
-4. [Laboratory work 4](#4)<br>
-5. [Laboratory work 5](#5)<br>
-6. [Laboratory work 6](#6)<br>
+4. [Laboratory work 4](#l4)<br>
+5. [Laboratory work 5](#l5)<br>
+6. [Laboratory work 6](#l6)<br>
 ____
 <a name="l1"></a> 
 ## Laboratory work 1
-Enter n integers from the console and put them in an array. Output prime numbers to the console.
+Enter n integers from the console and put them in an array. Output prime numbers to the console. Launching via the console
 <a name="l2"></a> 
 ## Laboratory work 2
 <a name="l3"></a> 
