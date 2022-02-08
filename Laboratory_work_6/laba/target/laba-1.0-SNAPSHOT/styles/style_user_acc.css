@@ -1,0 +1,133 @@
+body {
+    /*background-color: rgba(208, 170, 155, 1);*/
+    background-image: url("/images/background.jpg");
+}
+
+#book {
+    height: 150px;
+    width: auto;
+    float: left;
+}
+
+#coffee{
+    height: 300px;
+    width: auto;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    font-family: rampart-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-size: 50px;
+}
+
+#hello {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3 {
+    margin: 10px auto 0;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+#add_questionnaire, #show_questionnaires {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#button_exit {
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #000000;
+    background: white;
+    -webkit-box-shadow: 0px 0px 23px 11px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 23px 11px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 23px 11px rgba(0, 0, 0, 0.14);
+    transition: .3s;
+    background-color: transparent;
+    border-color: transparent;
+}
+#button_exit:hover {
+    background: rgb(255, 148, 238);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+#questionnaires, #navigate {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #ffcceb; /*rgb(255, 255, 255);*/
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+#questionnaire {
+    width: 90%;
+    margin: 20px auto 20px;
+    background-color: #fff9e4;/*rgb(251,229,234);*/
+    border-radius: 10px;
+}
+
+#cent {
+    width: 60%;
+    margin: 10px auto;
+}
+
+#help {
+    display: none;
+}
+
+
+.share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.share-buttons a {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.share-buttons a:not(:last-child) {
+    margin-right: 5px;
+}
+
+.share-buttons .facebook {
+    height: 50px;
+    width: 50px;
+    background: url("/images/Facebook_black.png") no-repeat left top;
+}
+
+.share-buttons .vkontakte {
+    height: 50px;
+    width: 50px;
+    background: url("/images/VK_black.png") no-repeat -168px top;
+}
+
+.share-buttons .telegram {
+    height: 50px;
+    width: 50px;
+    background: url("/images/Telegram_black.png") no-repeat -672px top;
+}
